@@ -1,0 +1,39 @@
+$colors: (
+    primary: #a4dfbc,
+    secondary: #e2e230,
+    tertiary: #000000,
+);
+
+$primary: map-get($colors, primary);
+$secondary: map-get($colors, secondary);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    font-family: 'Roboto', sans-serif
+}
+
+.navbar {
+    background-color: map-get($colors, primary);
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: white
+}
+
+footer {
+    background-color: map-get($colors, primary);
+}
+
+.search-btn {
+    margin-left: 2rem;
+}
+
+.card-header-text {
+    color: map-get($colors, tertiary);
+    text-decoration: none;
+}
+
