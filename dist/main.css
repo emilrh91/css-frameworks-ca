@@ -10736,4 +10736,14 @@ footer {
   text-decoration: none;
 }
 
+.img-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  min-height: 120vh;
+}
+
 /*# sourceMappingURL=main.css.map */

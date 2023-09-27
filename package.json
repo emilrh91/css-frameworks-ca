@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "A starting point for the CSS Frameworks CA project",
   "scripts": {
-    "start": "live-server ./dist",
-    "build": "sass --watch src/scss:dist/css",
+    "start": "live-server ./src",
+    "build": "sass --watch src/scss:dist",
     "test": "echo \"We will learn more about testing in the Workflow course\" && exit 1"
   },
   "repository": {
